@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-28T16:05:38Z" name="Suite1" finished-at="2019-01-28T16:05:39Z" duration-ms="407">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.tt.TestRunner.testNGTestrunner@3d285d7e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-01-28T16:05:38Z" name="Nopackage" finished-at="2019-01-28T16:05:39Z" duration-ms="407">
+      <class name="com.tt.TestRunner.testNGTestrunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.tt.TestRunner.testNGTestrunner@3d285d7e]" started-at="2019-01-28T16:05:38Z" name="setUpClass" finished-at="2019-01-28T16:05:38Z" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.tt.TestRunner.testNGTestrunner@3d285d7e]" started-at="2019-01-28T16:05:38Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-28T16:05:38Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Access]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.tt.TestRunner.testNGTestrunner@3d285d7e]" started-at="2019-01-28T16:05:38Z" name="tearDownClass" finished-at="2019-01-28T16:05:39Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.tt.TestRunner.testNGTestrunner -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
