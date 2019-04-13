@@ -12,10 +12,10 @@ public class Pr2 {
 		so.add("cat");
 		so.add("dog");
 		so.add("cow");
-	//	System.out.println(so);
-		ListIterator<String> lt = so.listIterator();
-		while(lt.hasNext())
-		System.out.println(lt.next());
+		System.out.println(so);
+		//ListIterator<String> lt = so.listIterator();
+		//(lt.hasNext())
+		//System.out.println(lt.next());
 		
 		
 		

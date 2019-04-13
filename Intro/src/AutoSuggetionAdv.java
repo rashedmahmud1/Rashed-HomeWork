@@ -15,6 +15,9 @@ WebDriver driver = new ChromeDriver();
 driver.get("https://ksrtc.in/oprs-web/guest/home.do");
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+
+
+
 driver.findElement(By.id("fromPlaceName")).sendKeys("BENG");
 Thread.sleep(3000);
 driver.findElement(By.id("fromPlaceName")).sendKeys(Keys.DOWN);
